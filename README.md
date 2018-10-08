@@ -1,4 +1,4 @@
-# browserDuckTyper
+# Browser Detection
 Browser Detection using Duck Typing in Javascript
 Supports:
  - Google Chrome
