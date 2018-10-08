@@ -25,10 +25,8 @@ const isBlink = (isChrome || isOpera) && !!window.CSS;
 const isWeChat = () => {
     const ua = navigator.userAgent.toLowerCase();  
     if(ua.match(/MicroMessenger/i)=="micromessenger") {  
-        return true;  
-    } else {  
-        return false;  
-    } 
+        return "WeChat Browser";  
+    }
 }
 
 
